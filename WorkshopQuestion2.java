@@ -28,7 +28,7 @@ class EBook extends Book{
     double fileSize;
 
     public EBook(String title, String author, int pages, double fileSize){
-        super(title, author); //ERROR: super() is missing the argument for pages
+        super(title, author, pages); //ERROR: super() is missing the argument for pages
         this.fileSize = fileSize;
     }
 
